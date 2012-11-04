@@ -4,7 +4,7 @@
  */
 package basededatos;
 import java.sql.SQLException;
-import modelo.error;
+//import modelo.error;
 //import modelo.unicaconexion;
 //import modelo.conexion;
 import modelo.Persona;
@@ -66,8 +66,8 @@ public class personaBD {
     public Persona leer() throws java.lang.ClassNotFoundException, 
                          java.lang.InstantiationException,
                          java.lang.IllegalAccessException, 
-                         java.sql.SQLException,
-                         error
+                         java.sql.SQLException
+                        // error
     {
    //    conexion cdb=unicaconexion.getInstancia().getConexionDb();
      //  cdb.un_sql="SELECT * FROM persona WHERE rut='"+p.getRut()+"'";

@@ -12,7 +12,7 @@ public class VentanaIngreso extends javax.swing.JFrame {
 
     /**
      * Creates new form VentanaIngreso
-     */
+     *///
     public VentanaIngreso() {
         initComponents();
     }

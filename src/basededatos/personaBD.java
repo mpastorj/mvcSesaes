@@ -4,14 +4,11 @@
  */
 package basededatos;
 import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import modelo.error;
-import modelo.unicaconexion;
+//import modelo.unicaconexion;
 //import modelo.conexion;
 import modelo.Persona;
 import modelo.conexion;
-import vista.VentanaPrincipal;
 
 /**
  *
@@ -72,7 +69,7 @@ public class personaBD {
                          java.sql.SQLException,
                          error
     {
-       conexion cdb=unicaconexion.getInstancia().getConexionDb();
+   //    conexion cdb=unicaconexion.getInstancia().getConexionDb();
      //  cdb.un_sql="SELECT * FROM persona WHERE rut='"+p.getRut()+"'";
      //  cdb.resultado=cdb.un_st.executeQuery(cdb.un_sql);
        
@@ -95,7 +92,7 @@ public class personaBD {
                          java.lang.IllegalAccessException, 
                          java.sql.SQLException
     {
-        conexion cdb=unicaconexion.getInstancia().getConexionDb();
+       // conexion cdb=unicaconexion.getInstancia().getConexionDb();
         
       //  cdb.un_sql="DELETE FROM persona WHERE rut='"+p.getRut()+"'";
       //  cdb.un_st.executeUpdate(cdb.un_sql);

@@ -5,6 +5,7 @@
 //
 package modelo;
 import basededatos.personaBD;
+import java.sql.SQLException;
 /**
  *
  * @author Milii2
@@ -72,18 +73,18 @@ public class Persona {
     public void grabar() throws java.lang.ClassNotFoundException,
                                 java.lang.InstantiationException,
                                 java.lang.IllegalAccessException,
-                                java.sql.SQLException,
-                                error
+                                java.sql.SQLException
+                                
     {
         personaBD pdb=new personaBD(this);
         pdb.grabar();
     }
     
-    public Persona leer() throws java.lang.ClassNotFoundException,
-                                java.lang.InstantiationException,
-                                java.lang.IllegalAccessException,
-                                java.sql.SQLException,
-                                error
+    public Persona leer() throws ClassNotFoundException, 
+                                 InstantiationException, 
+                                 IllegalAccessException, 
+                                 SQLException 
+                                
     {
         personaBD pdb=new personaBD(this);
         return pdb.leer();
@@ -92,8 +93,8 @@ public class Persona {
     public void borrar() throws java.lang.ClassNotFoundException,
                                 java.lang.InstantiationException,
                                 java.lang.IllegalAccessException,
-                                java.sql.SQLException,
-                                error
+                                java.sql.SQLException
+                                
     {
         personaBD pdb=new personaBD(this);
         pdb.borrar();

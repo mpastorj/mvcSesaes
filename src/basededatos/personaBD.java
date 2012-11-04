@@ -4,9 +4,6 @@
  */
 package basededatos;
 import java.sql.SQLException;
-//import modelo.error;
-//import modelo.unicaconexion;
-//import modelo.conexion;
 import modelo.Persona;
 import modelo.conexion;
 
